@@ -8,7 +8,7 @@ void lerPGM(struct pgm *pio, char *filename){
   
   // Verifica se o arquivo passado existe.
 	if (!(fp = fopen(strcat(dirName,filename),"rb"))){
-		perror("Erro. Ta botando a file errada fdp!");
+		perror("Erro. Ta botando a file errada");
 		exit(1);
 	}
 
